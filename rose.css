@@ -1,0 +1,42 @@
+body {
+background-color: snow;
+}
+
+a:link {
+color: mediumvioletred;
+}
+
+a:hover {
+background: seashell;
+}
+
+a:visited {
+color: purple;
+}
+
+th {
+background-color: seashell;
+border: 1px solid plum;
+}
+
+td {
+background-color: white;
+border: 1px solid gainsboro;
+}
+
+fieldset {
+border: 1px solid mediumorchid;
+}
+
+legend {
+background-color: seashell;
+border: 1px solid mediumorchid;
+}
+
+pre {
+background-color: seashell;
+}
+
+#myphoto {
+border: 1px outset seashell;
+}

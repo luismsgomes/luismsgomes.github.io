@@ -1,0 +1,43 @@
+body {
+background-color: ivory;
+}
+
+a:link {
+color: firebrick;
+}
+
+a:hover {
+background: moccasin;
+}
+
+a:visited {
+color: indianred;
+}
+
+th {
+background-color: cornsilk;
+border: 1px solid indianred;
+}
+
+td {
+background-color: white;
+border: 1px solid wheat;
+}
+
+fieldset {
+background-color: white;
+border: 1px solid indianred;
+}
+
+legend {
+background-color: cornsilk;
+border: 1px solid indianred;
+}
+
+pre {
+background-color: cornsilk;
+}
+
+#myphoto {
+border: 1px outset cornsilk;
+}

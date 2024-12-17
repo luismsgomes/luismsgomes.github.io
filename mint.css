@@ -1,0 +1,43 @@
+body {
+background-color: whitesmoke;
+}
+
+a:link {
+color: cadetblue;
+}
+
+a:hover {
+background: mintcream;
+}
+
+a:visited {
+color: slategray;
+}
+
+th {
+background-color: mintcream;
+border: 1px solid cadetblue;
+}
+
+td {
+background-color: white;
+border: 1px solid gainsboro;
+}
+
+fieldset {
+background-color: white;
+border: 1px solid cadetblue;
+}
+
+legend {
+background-color: mintcream;
+border: 1px solid cadetblue;
+}
+
+pre {
+background-color: lavender;
+}
+
+#myphoto {
+border: 1px outset whitesmoke;
+}

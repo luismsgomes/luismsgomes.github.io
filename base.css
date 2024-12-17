@@ -1,0 +1,133 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+html {
+font-family: 'Open Sans', sans-serif;
+font-size: 15pt;
+}
+
+body {
+padding: 1em;
+}
+
+a:link {
+text-decoration: none;
+}
+
+h1 {
+text-align: center;
+margin: 1em;
+font-size: 1.6em;
+}
+
+h2 {
+font-size: 1.3em;
+}
+
+h3 {
+font-size: 1.1em;
+}
+
+h4 {
+font-size: 1em;
+}
+
+li {
+margin-bottom: .6em;
+}
+
+table {
+margin: 1em auto;
+}
+
+th {
+border: 1px solid gray;
+font-weight: normal;
+}
+
+td {
+border: 1px solid gainsboro;
+}
+
+th, td {
+font-size: .8em;
+}
+
+/* I'm borrowing Crockford's idea of using fieldsets to get nice
+boxes with titles ;-)  (see http://www.crockford.com/) */
+fieldset {
+border: 1px solid gray;
+margin: 1em auto;
+padding: .4em 1.6em;
+max-width: 60em;
+}
+
+fieldset, legend, pre, td {
+-moz-border-radius:5px;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+legend {
+border: 1px solid gray;
+padding: 0.5em 1em;
+font-size: 1.1em;
+}
+
+pre {
+padding: 0.5em 1em;
+font-size: 1.15em;
+}
+
+#myphoto {
+float: right;
+margin: 0 0 1em 1em;
+border: 1px outset whitesmoke;
+}
+
+#header {
+float:right;
+font-size:.9em;
+}
+
+#footer {
+text-align: center;
+font-size: 0.9em;
+}
+
+#pubs b, #talks b, #posters b {
+font-weight:normal;
+color:black;
+}
+
+#pubs p, #talks p, #posters p {
+color:darkgray;
+}
+
+.byyear hr {
+border:none;
+border-top:1px solid lightgray;
+width:50%;
+text-align:left;
+margin:2em 6em;
+}
+
+.byyear p {
+margin-left:5em;
+border-left:1px solid lightgray;
+padding-left:.5em;
+}
+
+.byyear h4 {
+float:left;
+/* font-size:110%; */
+color:lightgray;
+}
+
+span.tt {
+	font-family: monospace;
+}
+
+#pointers {
+	font-size: 85%;
+}
